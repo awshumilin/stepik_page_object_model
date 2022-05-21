@@ -12,3 +12,10 @@ class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     LOGIN_FORM1 = (By.CSS_SELECTOR, "#id_login-username")
     LOGIN_FORM2 = (By.CSS_SELECTOR, "#id_login-password")
+
+class ProductPageLocators():
+    ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, "button.btn-add-to-basket")
+    ITEM_ADDED = (By.CSS_SELECTOR, "div.product_main h1")
+    PRICE = (By.CSS_SELECTOR, "div.product_main p")
+    MESSAGE_ITEM_ADDED = (By.CSS_SELECTOR, "div.alertinner strong")
+    MESSAGE_PRICE = (By.CSS_SELECTOR, "div.alertinner p strong")
